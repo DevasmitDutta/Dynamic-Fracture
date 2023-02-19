@@ -16,4 +16,4 @@ and for simulating `John-shah test` run
 ```shell
 cd John-shah_test
 ```
-After that, all notebooks files can then be run 👍
+After that, all notebooks files can then be run 👍, from that specified test-case folder. 
