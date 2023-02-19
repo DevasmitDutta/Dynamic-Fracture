@@ -5,6 +5,7 @@ Instructions
 From Bash shell or terminal, run
 ```shell
 $ git clone https://github.com/DevasmitDutta/Dynamic-Fracture.git
+$ cd Dynamic-fracture
 ```
 
 Depending on the use case, for simulating `Kalthoff-winkler test` run
