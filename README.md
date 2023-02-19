@@ -16,3 +16,4 @@ and for simulating `John-shah test` run
 ```shell
 cd John-shah test
 ```
+After that, all notebooks files can then be run 👍
