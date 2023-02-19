@@ -10,10 +10,10 @@ $ cd Dynamic-fracture
 
 Depending on the use case, for simulating `Kalthoff-winkler test` run
 ```shell
-cd Kalthoff-winkler test
+cd Kalthoff-winkler_test
 ```
 and for simulating `John-shah test` run
 ```shell
-cd John-shah test
+cd John-shah_test
 ```
 After that, all notebooks files can then be run 👍
