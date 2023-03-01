@@ -12,6 +12,12 @@ begin
    Pkg.status()
 end
 
+# ╔═╡ b337c082-ada4-4ca4-b108-849023170cbd
+begin 
+	using PlutoUI
+	PlutoUI.TableOfContents()
+end
+
 # ╔═╡ 601d363c-9fdd-4093-9fa5-b88ba7ce6cba
 begin 
    using Gmsh: gmsh
@@ -28,6 +34,13 @@ end
 # ╔═╡ bf53da6f-511a-4726-b57f-dcafcaa1faa8
 md"""
 ## Activating the project 
+"""
+
+# ╔═╡ 6aeb126e-6464-420e-a474-e46a2fc30cab
+md"""
+## Geometrical constraints in our model
+$(Resource("https://imgur.com/eg0so9Q.png", :width => 600))
+
 """
 
 # ╔═╡ ed48b3aa-6d00-42b8-893a-e17f6821c649
@@ -498,7 +511,9 @@ plot(Displacement[1:end],Load[1:end]*1e-3, xlabel = "mm", ylabel = "kN")
 # ╔═╡ Cell order:
 # ╟─bf53da6f-511a-4726-b57f-dcafcaa1faa8
 # ╠═9892a47e-b7fb-11ed-1236-2f700b706c6b
+# ╟─b337c082-ada4-4ca4-b108-849023170cbd
 # ╠═601d363c-9fdd-4093-9fa5-b88ba7ce6cba
+# ╟─6aeb126e-6464-420e-a474-e46a2fc30cab
 # ╟─ed48b3aa-6d00-42b8-893a-e17f6821c649
 # ╠═b897e239-36ed-443a-beb8-965d46b1c0e5
 # ╠═edba211c-fafd-4582-9d58-0f9548a97f10

@@ -25,6 +25,13 @@ begin
    using Gridap.Arrays
 end
 
+# ╔═╡ 35750bbc-d306-4806-9de0-0a3bbdaebcdb
+begin
+   using PlutoUI
+   PlutoUI.TableOfContents()
+
+end
+
 # ╔═╡ a2764d82-0497-4111-818e-9a0ffbb62796
 md"""
 ## Activating the Project
@@ -35,6 +42,12 @@ md"""
 md"""
 ## Creating the mesh
 
+"""
+
+# ╔═╡ e36ffeea-13fa-431f-ae48-b44a6fedc76c
+md"""
+## Geometrical constraints of our model
+$(Resource("https://imgur.com/UXruMa7.png", :width=> 600))
 """
 
 # ╔═╡ b897e239-36ed-443a-beb8-965d46b1c0e5
@@ -492,6 +505,8 @@ plot(Displacement[1:end],Load[1:end].*1e-3, xlabel = "mm", ylabel = "kN")
 # ╠═9892a47e-b7fb-11ed-1236-2f700b706c6b
 # ╟─7a3de35c-6ba9-48ce-bbfb-e761a60cbbde
 # ╠═601d363c-9fdd-4093-9fa5-b88ba7ce6cba
+# ╟─35750bbc-d306-4806-9de0-0a3bbdaebcdb
+# ╟─e36ffeea-13fa-431f-ae48-b44a6fedc76c
 # ╠═b897e239-36ed-443a-beb8-965d46b1c0e5
 # ╠═9a44e0aa-e92d-486d-920e-93918ae0f791
 # ╠═08d10d55-bc28-4ac6-afb7-1d079a62548d
