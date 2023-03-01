@@ -7,13 +7,18 @@ From Bash shell or terminal, run
 $ git clone https://github.com/DevasmitDutta/Dynamic-Fracture.git
 $ cd Dynamic-fracture
 ```
+After that, enter the Julia REPL and then do the following
 
-Depending on the use case, for simulating `Kalthoff-winkler test` run
-```shell
-cd Kalthoff-winkler_test
+```julia
+julia> ]
+pkg> activate .
+pkg> instantiate()
+julia> using Pluto
+julia> Pluto.run()
 ```
-and for simulating `John-shah test` run
-```shell
-cd John-shah_test
-```
-After that, all notebooks files can then be run 👍, from that specified test-case folder. 
+After that, a pop-up window hosted on the local-machine will open-up in the browser. 
+<img width="791" alt="Screenshot 2023-03-02 at 12 12 52 AM" src="https://user-images.githubusercontent.com/76597282/222235200-79b8869f-9ba2-4e41-bfd9-95c58daf2527.png">
+
+
+Finally, Depending on the use case, navigate to the desired folder and the notebooks will open  👍
+
