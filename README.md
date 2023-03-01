@@ -17,6 +17,7 @@ julia> using Pluto
 julia> Pluto.run()
 ```
 After that, a pop-up window hosted on the local-machine will open-up in the browser. 
+
 <img width="791" alt="Screenshot 2023-03-02 at 12 12 52 AM" src="https://user-images.githubusercontent.com/76597282/222235200-79b8869f-9ba2-4e41-bfd9-95c58daf2527.png">
 
 
