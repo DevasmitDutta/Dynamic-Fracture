@@ -1,6 +1,6 @@
 ### This repository implements Phase-field modeling in Dynamic-Brittle Fracture, using Gridap.jl package.
 
-Instructions
+### Instructions
 
 From Bash shell or terminal, run
 ```shell
